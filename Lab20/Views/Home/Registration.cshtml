@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Registration";
+}
+<html>
+
+<body>
+    <h2>Registration</h2>
+
+    <p> Please enter your registration info :  </p>
+
+    <form name="Reg" onsubmit="return validateForm()" action="Registration" method="post">
+        
+            First name:<br>
+            <input type="text" name="firstname">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname">
+            <br>
+            Email:<br>
+            <input type="text" name="email">
+            <br>
+            <input type="submit" value="Submit">
+            <br><br>
+
+        </form>
+
+
+
+</body>
+</html>
